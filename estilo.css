@@ -1,0 +1,45 @@
+#main {
+	background-color: #EAEDED;
+}
+#title {
+	font-family: 'Kanit', sans-serif;
+	text-align: center;
+}
+#img-div {
+	text-align: center;
+	background-color: #E5E7E9;
+	margin: 0 15px 0 15px;
+}
+#img-div p, h2 {
+	font-family: 'Kanit', sans-serif;
+}
+#img-div img {
+	border-radius: 10px;
+}
+#info {
+	background-color: #E5E7E9;
+	margin: 0 15px 0 15px;
+}
+#info p {
+	text-align: center;
+	font-family: sans-serif;
+}
+#tribute-link {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#tribute-link a{
+	text-decoration: none;
+	color: white;
+	font-family: Verdana;
+	background-color: grey;
+	padding: 10px 20px 10px 20px;
+}
+
+/*Aqui Inicia el Resposive*/
+@media (max-width: 1080px) {
+	#img-div img {
+		width: 310px;
+		height: 240px;
+	}
+}
